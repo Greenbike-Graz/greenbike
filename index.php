@@ -1,29 +1,24 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< Updated upstream
 <head>
-	<title>Homepage</title>
-</head>
-<body>
 
-</body>
-=======
-	<head>
-		 <!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-		<title>Greenbike Graz</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	
+	<title>Greenbike Graz</title>
 	</head>
 	<body>
 		<div class="jumbotron text-center">
-			<h1>My First Bootstrap Page</h1>
-			<p>Resize this responsive page to see the effect!</p>
+			<h1>E-BIKES - DIE NEUE ZUKUNFT</h1>
 		</div>
 
 		<div class="container">
@@ -43,5 +38,4 @@
 			</div>
 		</div> 
 	</body>
->>>>>>> Stashed changes
 </html>

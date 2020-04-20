@@ -1,26 +1,65 @@
+
+/* Adding our fonts to the repourtoire */
+@font-face {
+	font-family: OS-regular;
+	src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: OS-semibold;
+	src: url(OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: OS-bold;
+	src: url(OpenSans-Bold.ttf);
+}
+
 h1 {
-	font-size: 22px;
-	font-family: Courier New;
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-p {
 	
 }
 
-@media only screen and (max-width: 700px) {
-	h1 {
-		font-size: 55px;
+/* Navbar Specification */
+.jumbotron .h1, .jumbotron h1 {
+	font-family: OS-semibold;
+	font-size:   30px;
+	color:       white;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: grey;
+}
+
+h2 {
+	font-family: OS-bold;
+	font-size:   36px;
+}
+
+h3 {
+	font-family: OS-bold;
+	font-size:   24px;
+}
+
+p {
+	font-family: OS-regular;
+	font-size:   21px;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+
+	h2 {
+		font-family: OS-bold;
+		font-size:   34px;
 	}
+
+	h3 {
+		font-family: OS-bold;
+		font-size:   23px;
+	}
+
+	p {
+		font-family: OS-regular;
+		font-size:   18px;
+	}
+	
 }
