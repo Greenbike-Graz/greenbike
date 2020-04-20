@@ -15,51 +15,128 @@
 	src: url(OpenSans-Bold.ttf);
 }
 
-h1 {
-	
+html, #logoheader {
+	background:url(../pictures/logo_temp.png) no-repeat center center;
+	background-color: #DFE2D2;
+	background-size: 35%;
 }
 
-/* Navbar Specification */
+/* Slideshow Specification
 .jumbotron .h1, .jumbotron h1 {
 	font-family: OS-semibold;
 	font-size:   30px;
 	color:       white;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: grey;
+    height: 300px;
+}
+
+.jumbotron {
+	height: 400px;
+	background-image: url();
+	background-size: 100% auto;
+	max-width: 100%;
+	height: 400px;
+	display: block;
+} */
+
+#preheader {
+	height: 40px;
+	background-color: #576563;
+}
+
+#logoheader {
+	height: 100px;
+}
+
+#myCarousel, .carousel-inner, .item {
+	width:100%;
+	height:400px;
+}
+
+.carousel-img {
+	width: 100%;
+	height: 100%;
+}
+
+
+h1 {
+	font-family: OS-semibold;
+	font-size:   30px;
+	color:       #DFE2D2;
 }
 
 h2 {
 	font-family: OS-bold;
 	font-size:   36px;
+	color:       #576563;
 }
 
 h3 {
 	font-family: OS-bold;
 	font-size:   24px;
+	color:       #576563;
 }
 
 p {
 	font-family: OS-regular;
 	font-size:   21px;
+	color:       #576563;
 }
 
+.navbar {
+	border: 1px solid #576563;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.bg-dark {
+	background-color: #576563;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+	background-color: #576563;
+}
+
+@media only screen and (max-width: 800px) {
+
+	#preheader {
+		height: 20px;
+		background-color: #576563;
+	}
 
 
-@media only screen and (max-width: 1024px) {
+	#logoheader {
+		max-height: 100px;
+		min-height: 70px;
+		background-size: 75%;
+	}
+
+	#myCarousel, .carousel-inner, .item {
+		width:100%;
+		height:250px;
+	}
 
 	h2 {
 		font-family: OS-bold;
 		font-size:   34px;
+		color:       #576563;
 	}
 
 	h3 {
 		font-family: OS-bold;
 		font-size:   23px;
+		color:       #576563;
 	}
 
 	p {
 		font-family: OS-regular;
 		font-size:   18px;
+		color:       #576563;
 	}
 	
 }
