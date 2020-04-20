@@ -16,7 +16,7 @@
 }
 
 html, #logoheader {
-	background:url(../pictures/logo_temp.png) no-repeat center center;
+	background:url(../pictures/logo.svg) no-repeat center center;
 	background-color: #DFE2D2;
 	background-size: 35%;
 }
