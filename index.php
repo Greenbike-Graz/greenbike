@@ -77,19 +77,12 @@
 			</div>
 		</nav>
 
-		<div class="container">
+		<div class="container bg-light">
 			<div class="row">
-				<div class="col-sm-4">
-					<h3>Column 1</h3>
-					<p>Lorem ipsum dolor..</p>
-				</div>
-				<div class="col-sm-4">
-					<h3>Column 2</h3>
-					<p>Lorem ipsum dolor..</p>
-				</div>
-				<div class="col-sm-4">
-					<h3>Column 3</h3>
-					<p>Lorem ipsum dolor..</p>
+				<div class="col-sm-12">
+					<img src="pictures/aboutus.jpg" class="max-wh">
+					<h2>ÜBER UNS</h2>
+					<p>Das ist Greenbike - ein junges Unternehmen mit speziell für E-Bikes ausgebildeten Fachkräften, die sich gerne für Sie Zeit nehmen. Unser Betrieb zeichnet sich durch die persönliche Beratung in unserem Fahrrad-Shop, der praktischen und kostengünstigen Vermietung von E-Bikes und unserer Fachwerkstätte für E-Bike Wartung und Service aus. Frei nach unserem Leitsatz "Greenbike - Schnell und Günstig" gestaltet sich unser Geschäftsmodell. Flexibilität für jedermann, direkt im Univiertel, praktische Erreichbarkeit mit öffentlichen Verkehrsmitteln, sowie Parkmöglichkeiten sind vorhanden. Die Greenbike GmbH beschäftigt derzeit vier Mitarbeiter, die sich kompetent und zuverlässig um alle Ihre Fragen und Anliegen rund um das Thema E-Bike kümmern.</p>
 				</div>
 			</div>
 		</div>
