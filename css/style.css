@@ -116,6 +116,34 @@ p {
 	height: 100%;
 }
 
+
+.pic-adj{
+    margin: 2% 0;
+    
+}
+
+
+.p-light{
+    font-family: OS-regular;
+    font-size: 21px;
+    color: #DFE2D2;
+    text-align: justify;
+    
+}
+
+.h2-light{
+    font-family: OS-bold;
+    color: #DFE2D2;
+    font-size: 36px;
+}
+
+.h3-light{
+    font-family: OS-bold;
+    color:#DFE2D2;
+    font-size: 24px; 
+}
+
+
 @media only screen and (max-width: 800px) {
 
 	#preheader {

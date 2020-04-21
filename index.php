@@ -69,7 +69,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a href="#"><h1>ÜBER UNS</h1></a></li>
-						<li><a href="#"><h1>LEISTUNGEN</h1></a></li>
+						<li><a href="#leistungen"><h1>LEISTUNGEN</h1></a></li>
 						<li><a href="#"><h1>PRODUKTE</h1></a></li>
 						<li><a href="#"><h1>KONTAKT</h1></a></li>
 					</ul>
@@ -87,5 +87,25 @@
 			</div>
 		</div>
 		<br>
+
+    <!-- Leistungen-section-->
+    <div class="container bg-dark">
+        <div class="col-sm-12">
+            <img src="pictures/EBike-Workshop.jpg" alt="Werkstatt" class="max-wh pic-adj">
+            <div id="leistungen">
+                <h2 class="h2-light">LEISTUNGEN</h2>
+                <p class="p-light">Wir bieten modernste E-Bikes an, von der Vermietung bis zum Kauf an, sowie eine hauseigene Fachwerkstätte zu Wartung und Service für Ihre E-Bikes</p>
+                <h3 class="h3-light">SERVICECENTER</h3>
+                <p class="p-light">Unsere hochqualifizierten Mitarbeiter un unserem E-Bike Servicecenter arbeiten mit höchster Präzision daran, Ihre Kundenwünsche zu erfüllen. Vom einfachen Service bis zu Wartung. Weiteres bieten wir für unsere Kunden eine gratis Aufpumpstation für Ihre Fahrräder in unserem Haus an.</p>
+                <h3 class="h3-light">VERMIETUNG</h3>
+                <p class="p-light">Unsere Vermietung spricht für sich, indem wir Flexibilität zu geringen Preisen mit speziellen Preisvorteilen verbinden. Sie können aus einer großen Auswahl an moderensten E-Bikes aus unserem weiten Produktsortiment wählen. Wir beraten Sie gerne, ihr Wunsch-E-Bike zum besten Preis für Sie zu finden.</p>
+                <h3 class="h3-light">VERKAUF</h3>
+                <p class="p-light">Mit unseren generalüberholten und hochqualitativen E-Bike aus zweiter Hand erwerben Sie ein topaktuelles, neuwertiges E-Bike von Spitzenherstellern mit Bestpreisgarantie. Unsere E-Bikes werden von unserem hauseigenen Serviepersonal gewartet und geprüft, bevor Sie diese zum Vorzugspreis kaufen können. Wir bieten Ihnen auch die Möglichkeit, Ihr Wunsch-Rad vor dem Kauf Probe zu fahren, um sich so von der Qualtiät unserer Fahrräder zu überzeugen. Umweltfreundliche Fortbewegung, fachmännische Beratung, beste Preise - dass erhalten Sie nur bei Greenbike.</p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+
 	</body>
 </html>
