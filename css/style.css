@@ -117,10 +117,56 @@ p {
 }
 
 
-.pic-adj{
-    margin: 2% 0;
-    
+
+
+#stud-img{
+	width: 100%;
+	object-fit: cover;
+	padding-top: 2%;
+	
 }
+#stud-tab{
+	float: left;
+	width: 50%;
+	
+
+}
+#tab-head{
+	background-color: #74BC7C;
+	text-align: center;
+	color: #E7E8DA;
+}
+
+#leistungen-head{
+	padding-top: 2%;
+}
+
+
+table{
+	border-collapse: collapse;
+	font-family: OS-regular;
+	background-color: #DFE2D2;
+	color: #576563;
+	
+}
+table, th, td{
+	border: 1px solid rgb(110, 105, 105);
+	border-color: white;
+	font-size: 21px;
+	padding: 5px;
+}
+
+th{
+	font-weight: bold;
+}
+
+
+#container-tab{
+	padding: 1%;
+	padding-bottom: 100%;	
+	
+}
+
 
 
 .p-light{
