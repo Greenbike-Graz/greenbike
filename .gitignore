@@ -2,3 +2,7 @@ live access.php
 MyAdmin.php
 PgAdmin.php
 pictures/*
+pictures/slideshow1.jpg
+pictures/slideshow2.jpg
+pictures/slideshow3.jpg
+*.jpg
