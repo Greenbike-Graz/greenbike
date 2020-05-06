@@ -89,6 +89,11 @@ p {
 	text-align:  justify;
 }
 
+.textarea {
+	border-left: solid transparent 35px;
+	border-right: solid transparent 35px;
+}
+
 .navbar {
 	border: 1px solid #576563;
 }
