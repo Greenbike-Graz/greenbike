@@ -121,7 +121,13 @@ p {
 	height: 100%;
 }
 
-
+#img-logo{
+	float: right;
+	width: 400px;
+	height: 450px;
+	margin-top: -10%;
+	
+}
 
 
 #stud-img{
@@ -130,9 +136,17 @@ p {
 	padding-top: 2%;
 	
 }
+
+#workshop-img{
+	width: 100%;
+	object-fit: cover;
+	
+}
+
 #stud-tab{
 	float: left;
 	width: 50%;
+	
 	
 
 }
@@ -167,8 +181,8 @@ th{
 
 
 #container-tab{
-	padding: 1%;
-	padding-bottom: 100%;	
+	padding-bottom: 100%;
+	margin: 2% 4%;
 	
 }
 
