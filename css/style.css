@@ -181,7 +181,7 @@ th{
 
 
 #container-tab{
-	padding-bottom: 100%;
+	padding-bottom: 50%;
 	margin: 2% 4%;
 	
 }
@@ -207,6 +207,50 @@ th{
     color:#DFE2D2;
     font-size: 24px; 
 }
+
+#formular-head{
+	text-align: center;
+}
+
+
+input, label {
+	display:block;
+}
+
+.formular input{
+	border: solid black 2px;
+	border-radius: 0px;
+}
+.formular label{
+	color: #576563;
+}
+
+form{
+	margin-top: 30px;
+}
+textarea {
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+	resize: vertical;
+
+}
+
+input[type=text] {
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 0px;
+}
+
+#head-textarea{
+	font-size: 24px;
+	text-align: center;
+}
+textarea[type=text]{
+	border:solid black 2px;
+}
+
+
 
 
 @media only screen and (max-width: 800px) {
