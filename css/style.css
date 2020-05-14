@@ -22,6 +22,8 @@ html, #logoheader {
 }
 
 body {
+	font-family: OS-regular;
+	color:       #576563;
 	background-color: #DFE2D2;
 }
 
@@ -137,6 +139,11 @@ p {
 	
 }
 
+.social-img{
+	height: 55px;
+	float: right;
+}
+
 #workshop-img{
 	width: 100%;
 	object-fit: cover;
@@ -183,10 +190,7 @@ th{
 #container-tab{
 	padding-bottom: 50%;
 	margin: 2% 4%;
-	
 }
-
-
 
 .p-light{
     font-family: OS-regular;
