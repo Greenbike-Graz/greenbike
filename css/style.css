@@ -144,6 +144,10 @@ p {
 	float: right;
 }
 
+.social-container{
+	height: 55px;
+}
+
 #workshop-img{
 	width: 100%;
 	object-fit: cover;
