@@ -140,7 +140,8 @@ p {
 }
 
 .social-img{
-	height: 55px;
+	border: solid transparent 5px;
+	height: 50px;
 	float: right;
 }
 
@@ -272,6 +273,12 @@ textarea[type=text]{
 		max-height: 100px;
 		min-height: 70px;
 		background-size: 75%;
+	}
+
+	.social-img{
+		border: solid transparent 5px;
+		height: 50px;
+		float: left;
 	}
 
 	h2 {

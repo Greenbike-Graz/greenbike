@@ -310,7 +310,10 @@
 <br>
 <!-- Social Links -->
 <div class="col-md-12 bg-dark social-container">
-	<img src="pictures/socialmediaslogos.svg" class="social-img">
+	<a href="https://www.facebook.com/"><img src="pictures/Facebook.svg" class="social-img"></a>
+	<a href="https://www.instagram.com/"><img src="pictures/Instagram.svg" class="social-img"></a>
+	<a href="https://twitter.com/"><img src="pictures/Twitter.svg" class="social-img"></a>
+	<a href="https://www.youtube.com/"><img src="pictures/Youtube.svg" class="social-img"></a>
 </div>
 
 </footer>
