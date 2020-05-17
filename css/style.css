@@ -245,19 +245,13 @@ textarea {
 
 }
 
-input[type=text] {
-	width: 100%;
-	border: 2px solid black;
-	border-radius: 0px;
-}
+
 
 #head-textarea{
 	font-size: 24px;
 	text-align: center;
 }
-textarea[type=text]{
-	border:solid black 2px;
-}
+
 
 
 

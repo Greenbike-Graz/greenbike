@@ -185,18 +185,18 @@
 			</tr>
 			<tr>
 				<td>CT Hybrid One</td>
-				<td>€ ??,??</td>
-				<td>€ ??,??</td>
+				<td>1,50 €/Std</td>
+				<td>0,50 €/Std</td>
 			</tr>
 			<tr>
 				<td>S Bear Rock</td>
-				<td>€ ??,??</td>
-				<td>€ ??,??</td>
+				<td>1,90 €/Std</td>
+				<td>0,70 €/Std</td>
 			</tr>
 			<tr>
 				<td>B Wave</td>
-				<td>€ ??,??</td>
-				<td>€ ??,??</td>
+				<td>2,00 €/Std</td>
+				<td>0,80 €/Std</td>
 			</tr>
 			
 		</table>
