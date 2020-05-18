@@ -105,7 +105,7 @@
 	<div class="container bg-dark" id="leistungen-head">
 		<div class="col-sm-12">
 			<img id="workshop-img" src="pictures/EBike-Workshop.jpg" alt="E-Bike Workshop">
-				<div id="leistungen">
+				<div id="leistungen" class="textarea">
 					<h2 class="h2-light">LEISTUNGEN</h2>
 					<p class="p-light">Wir bieten modernste E-Bikes an, von der Vermietung bis zum Kauf an, sowie eine hauseigene Fachwerkstätte zu Wartung und Service für Ihre E-Bikes</p>
 					<h3 class="h3-light">SERVICECENTER</h3>
@@ -165,9 +165,11 @@
 	<div class="container bg-dark">
 		<div class="col-sm-12" style="margin-bottom: 8%">
 			<img id="stud-img" src="pictures/Studentenkarte.jpg">
+			<div class="textarea">
 			<h3 class="h3-light">LIEBE SCHÜLER/INNEN UND STUDENTEN/INNEN, AUFGEPASST!</h3>
 		<p class="p-light">Wir bei Greenbike legen einen großen Wert auf Jugendliche, daher haben wir verschiedene Angebot für all diejenigen die Nachweisen können das sie studieren beziehungsweise in die Schule gehen. Sie bekommen dann eine Greenbike Karte mit dem man verschiedene E-Bikes günstiger mieten kann. Greenbike Mitglieder können auch bei verschiedenen Events mitmachen die über das ganze Jahr stattfinden und tolle Preise gewinnen!</p>
 		<p class="p-light"> Für mehr Fragen wenden Sie sich bei uns per E-Mail oder rufen Sie uns an!</p>
+			</div>
 		</div>
 	<div id="container-tab">
 		<table id="stud-tab">
@@ -210,7 +212,7 @@
 <div class="bg-light container" style="padding-bottom: 300px;">
 	<div class="col-sm-12">
 		<h3 id="formular-head">Haben Sie noch Fragen dann zögern Sie nicht!</h3>
-	<form class="formular">
+	<form class="formular" id="kontakt">
 	<div class="form-row">
 	<div class="form-group col-md-6">
 	  <label for="inputVorname">*Vorname:</label>
@@ -256,9 +258,11 @@
 	<label class="checkbox-inline"><input type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
   </div>
 </div>
+<button type="button" class="btn btn-primary btn-lg btn-block form-submit">ABSCHICKEN</button>
 </div>
 </div>
 </form>
+<br>
 
 <!-- Footer -->
 <div class="col-md-12 bg-dark">

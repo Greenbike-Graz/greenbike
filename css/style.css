@@ -236,6 +236,7 @@ input, label {
 
 form{
 	margin-top: 30px;
+	margin-bottom: -20%;
 }
 textarea {
     display: block;
@@ -252,6 +253,17 @@ textarea {
 	text-align: center;
 }
 
+.form-submit{
+	border-radius: 0px;
+	background-color: #74BC7C;
+	border: none;
+
+
+}
+
+.form-submit:hover{
+	background-color: #4b9b54;
+}
 
 
 
