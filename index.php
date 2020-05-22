@@ -13,6 +13,8 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+	<script src="js/smoothscrolling.js"></script>
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<title>Greenbike Graz</title>
@@ -26,12 +28,12 @@
 	<div class="col-sm-12" id="logoheader">
 	</div>
 	<!-- SLIDER CAROUSEL -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="mainCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#mainCarousel" data-slide-to="1"></li>
+			<li data-target="#mainCarousel" data-slide-to="2"></li>
 		</ol>
 
 		<!-- Wrapper for slides -->
@@ -50,11 +52,11 @@
 		</div>
 
 		<!-- Left and right controls 
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<a class="left carousel-control" href="#mainCarousel" data-slide="prev">
 				<span class="glyphicon glyphicon-chevron-left"></span>
 				<span class="sr-only">Previous</span>
 			</a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<a class="right carousel-control" href="#mainCarousel" data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right"></span>
 				<span class="sr-only">Next</span>
 			</a>-->
@@ -215,48 +217,48 @@
 	<form class="formular" id="kontakt">
 	<div class="form-row">
 	<div class="form-group col-md-6">
-	  <label for="inputVorname">*Vorname:</label>
-	  <input type="text" class="form-control" id="inputVorname" placeholder="Vorname" required>
+		<label for="inputVorname">*Vorname:</label>
+		<input type="text" class="form-control" id="inputVorname" placeholder="Vorname" required>
 	</div>
 	<div class="form-group col-md-6">
-	  <label for="inputNachname">*Nachname:</label>
-	  <input type="text" class="form-control" id="inputNachname" placeholder="Nachname" required>
+		<label for="inputNachname">*Nachname:</label>
+		<input type="text" class="form-control" id="inputNachname" placeholder="Nachname" required>
 	</div>
-  </div>
+</div>
   
-  <div class="form-row">
+<div class="form-row">
 	<div class="form-group col-md-6">
-	  <label for="inputAdresse">*Adresse:</label>
-	  <input type="text" class="form-control" id="inputAdresse" placeholder="Adresse" required>
+		<label for="inputAdresse">*Adresse:</label>
+		<input type="text" class="form-control" id="inputAdresse" placeholder="Adresse" required>
 	</div>
 	<div class="form-group col-md-2">
 		<label for="inputPlz">*PLZ:</label>
 		<input style="width: 80px;" type="text" class="form-control" id="inputPlz" placeholder="PLZ" required>
-	  </div>
-	  <div class="form-group col-md-4">
+	</div>
+	<div class="form-group col-md-4">
 		<label for="inputOrt">*Ort:</label>
 		<input type="text" class="form-control" id="inputOrt" placeholder="Ort" required>
-	  </div>
+	</div>
 	</div>
 	<div class="form-row">
 		<div class="form-group col-md-6">
-		  <label for="inputTelefon">*Telefon/Mobile:</label>
-		  <input type="tel" class="form-control" id="inputTelefon" placeholder="0664/1234567" required>
+			<label for="inputTelefon">*Telefon/Mobile:</label>
+			<input type="tel" class="form-control" id="inputTelefon" placeholder="0664/1234567" required>
 		</div>
 		<div class="form-group col-md-6">
-		  <label for="inputNachname">*Email:</label>
-		  <input type="text" class="form-control" id="inputNachname" placeholder="Email" required>
+			<label for="inputNachname">*Email:</label>
+			<input type="text" class="form-control" id="inputNachname" placeholder="Email" required>
 		</div>
-	  </div>
-	  <div>
+	</div>
+		<div>
 		<div class="form-group" id="head-textarea">
 			<label for="exampleFormControlTextarea1">Fragen/Anmerkungen:</label>
 			<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="border:solid 2px black; border-radius: 0px;" maxlength="200"></textarea>
-		  </div>
-<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
-<div class="checkbox">
-	<label class="checkbox-inline"><input type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
-  </div>
+		</div>
+		<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
+		<div class="checkbox">
+			<label class="checkbox-inline"><input type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
+		</div>
 </div>
 <button type="button" class="btn btn-primary btn-lg btn-block form-submit">ABSCHICKEN</button>
 </div>
