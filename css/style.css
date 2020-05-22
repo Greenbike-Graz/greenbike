@@ -55,7 +55,7 @@ body {
 	height: 100px;
 }
 
-#myCarousel, .carousel-inner, .item {
+#mainCarousel, .carousel-inner, .item {
 	width:100%;
 	height:100%;
 }
