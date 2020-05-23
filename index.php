@@ -14,6 +14,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 	<script src="js/smoothscrolling.js"></script>
+	<script src="js/submit_form.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -218,7 +219,8 @@
 	<div class="form-row">
 	<div class="form-group col-md-6">
 		<label for="inputVorname">*Vorname:</label>
-		<input type="text" class="form-control" id="inputVorname" placeholder="Vorname" required>
+		<input type="text" class="form-control" id="inputVorname" placeholder="Vorname" name="vorname" required>
+
 	</div>
 	<div class="form-group col-md-6">
 		<label for="inputNachname">*Nachname:</label>
@@ -231,26 +233,32 @@
 		<label for="inputAdresse">*Adresse:</label>
 		<input type="text" class="form-control" id="inputAdresse" placeholder="Adresse" required>
 	</div>
+
 	<div class="form-group col-md-2">
 		<label for="inputPlz">*PLZ:</label>
 		<input style="width: 80px;" type="text" class="form-control" id="inputPlz" placeholder="PLZ" required>
 	</div>
+
 	<div class="form-group col-md-4">
 		<label for="inputOrt">*Ort:</label>
 		<input type="text" class="form-control" id="inputOrt" placeholder="Ort" required>
 	</div>
 	</div>
+
 	<div class="form-row">
 		<div class="form-group col-md-6">
 			<label for="inputTelefon">*Telefon/Mobile:</label>
-			<input type="tel" class="form-control" id="inputTelefon" placeholder="0664/1234567" required>
+			<input type="text" class="form-control" id="inputTelefon" placeholder="06641234567" ">
 		</div>
+
 		<div class="form-group col-md-6">
 			<label for="inputNachname">*Email:</label>
-			<input type="text" class="form-control" id="inputNachname" placeholder="Email" required>
+			<input type="email" class="form-control" id="inputNachname" placeholder="Email" required>
 		</div>
+
 	</div>
 		<div>
+
 		<div class="form-group" id="head-textarea">
 			<label for="exampleFormControlTextarea1">Fragen/Anmerkungen:</label>
 			<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="border:solid 2px black; border-radius: 0px;" maxlength="200"></textarea>
@@ -260,7 +268,7 @@
 			<label class="checkbox-inline"><input type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
 		</div>
 </div>
-<button type="button" class="btn btn-primary btn-lg btn-block form-submit">ABSCHICKEN</button>
+<button id="send-form" value="Submit" type="submit" class="btn btn-primary btn-lg btn-block form-submit">ABSCHICKEN</button>
 </div>
 </div>
 </form>

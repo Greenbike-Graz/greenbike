@@ -264,8 +264,16 @@ textarea {
 .form-submit:hover{
 	background-color: #4b9b54;
 }
+.form-submit:visited{
+	background-color: #4b9b54;
+}
 
-
+.form-submit:focus{
+	background-color: #74BC7C;
+}
+.btn.btn-primary:active{
+	background-color: #4b9b54;
+}
 
 
 @media only screen and (max-width: 800px) {
