@@ -252,8 +252,8 @@
 		</div>
 
 		<div class="form-group col-md-6">
-			<label for="inputNachname">*Email:</label>
-			<input type="email" class="form-control" id="inputNachname" placeholder="Email" required>
+			<label for="email">*Email:</label>
+			<input type="email" class="form-control" id="email" placeholder="Email" required>
 		</div>
 
 	</div>
@@ -261,7 +261,7 @@
 
 		<div class="form-group" id="head-textarea">
 			<label for="exampleFormControlTextarea1">Fragen/Anmerkungen:</label>
-			<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="border:solid 2px black; border-radius: 0px;" maxlength="200"></textarea>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="border:solid 2px black; border-radius: 0px;" maxlength="400"></textarea>
 		</div>
 		<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
 		<div class="checkbox">
