@@ -244,39 +244,39 @@
 		<div class="bg-light container">
 			<div class="col-sm-12">
 				<h3 id="formular-head">Haben Sie noch Fragen? Dann zögern Sie nicht!</h3>
-				<form class="formular" id="kontakt"> 
+				<form name ="form" onsubmit="return validateForm()" class="formular" id="kontakt"> 
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputVorname">*Vorname:</label>
-							<input type="text" class="form-control" id="inputVorname" placeholder="Vorname" name="vorname" required>
+							<input name="vorname" type="text" class="form-control" id="inputVorname" placeholder="Vorname" name="vorname">
 						</div>
 						<div class="form-group col-md-6">
 							<label for="inputNachname">*Nachname:</label>
-							<input type="text" class="form-control" id="inputNachname" placeholder="Nachname" required>
+							<input name="nachname" type="text" class="form-control" id="inputNachname" placeholder="Nachname">
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputAdresse">*Adresse:</label>
-							<input type="text" class="form-control" id="inputAdresse" placeholder="Adresse" required>
+							<input name="adresse" type="text" class="form-control" id="inputAdresse" placeholder="Adresse">
 						</div>
 						<div class="form-group col-md-2">
 							<label for="inputPlz">*PLZ:</label>
-							<input style="width: 80px;" type="text" class="form-control" id="inputPlz" placeholder="PLZ" required>
+							<input name="plz" style="width: 80px;" type="text" class="form-control" id="inputPlz" placeholder="PLZ">
 						</div>
 						<div class="form-group col-md-4">
 							<label for="inputOrt">*Ort:</label>
-							<input type="text" class="form-control" id="inputOrt" placeholder="Ort" required>
+							<input name="ort" type="text" class="form-control" id="inputOrt" placeholder="Ort">
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputTelefon">*Telefon/Mobile:</label>
-							<input type="text" class="form-control" id="inputTelefon" placeholder="06641234567" ">
+							<input name="telefon" type="text" class="form-control" id="inputTelefon" placeholder="06641234567">
 						</div>
 						<div class="form-group col-md-6">
 							<label for="email">*Email:</label>
-							<input type="email" class="form-control" id="email" placeholder="Email" required>
+							<input name="email" type="email" class="form-control" id="email" placeholder="Email">
 						</div>
 					</div>
 					<div>
@@ -286,7 +286,7 @@
 						</div>
 						<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
 						<div class="checkbox">
-							<label class="checkbox-inline"><input type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
+							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen"><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
 						</div>
 						<div class="form-group">
 							<div class="col-md-12">
