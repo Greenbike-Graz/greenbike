@@ -6,3 +6,4 @@ pictures/slideshow1.jpg
 pictures/slideshow2.jpg
 pictures/slideshow3.jpg
 *.jpg
+.DS_Store
