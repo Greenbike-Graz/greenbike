@@ -23,7 +23,7 @@ window.onload = function () {
 
 
     if (isValidEmail && isValidNachname && isValidVorname && isValidAdresse && isValidPlz && isValidOrt && isValidTelefon && isValidEmail && isValidCheckbox) {
-      mail_url = 'mailto:office@greenbike.at?Subject=' + 'Anfrage' + '&Body=' + $('#form-textarea').val() + '%0D%0A' + '%0D%0A' + $('#inputVorname').val() + ' ' + $('#inputNachname').val() + '%0D%0A' + $('#inputAdresse').val() + ', ' + $('#inputPlz').val() + ' ' + $('#inputOrt').val() + '%0D%0A' + $('#inputTelefon').val() + '%0D%0A' + $('#email').val()
+      mail_url = 'mailto:greenbike.graz@gmail.com?Subject=' + 'Anfrage' + '&Body=' + $('#form-textarea').val() + '%0D%0A' + '%0D%0A' + $('#inputVorname').val() + ' ' + $('#inputNachname').val() + '%0D%0A' + $('#inputAdresse').val() + ', ' + $('#inputPlz').val() + ' ' + $('#inputOrt').val() + '%0D%0A' + $('#inputTelefon').val() + '%0D%0A' + $('#email').val()
       window.location = mail_url
       kontakt.submit();
     } 
