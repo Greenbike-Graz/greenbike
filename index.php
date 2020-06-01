@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
 	<link rel="icon" type="image" href="pictures/favicon.ico" />
-
+	<meta charset="UTF-8">
 	<!-- Sets the width to the devices width you are viewing it in.  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Das ist Greenbike - ein junges Unternehmen mit speziell für E-Bikes ausgebildeten Fachkräften, die sich gerne für Sie Zeit nehmen. Unser Betrieb zeichnet sich durch die persönliche Beratung in unserem Fahrrad-Shop, der praktischen und kostengünstigen Vermietung von E-Bikes und unserer Fachwerkstätte für E-Bike Wartung und Service aus."/>
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -28,7 +29,7 @@
 	<div id="preheader"></div>
 
 	<!-- LOGO HEADER -->
-	<img src="pictures/logo.svg" class="logoheader"/>
+	<img src="pictures/logo.svg" class="logoheader" alt="Greenbike - Logo"/>
 
 	<!-- SLIDER CAROUSEL -->
 	<section id="section-maincarousel">
@@ -94,7 +95,7 @@
 		<div class="container bg-light">
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="pictures/aboutus.jpg" class="centerzoom">
+					<img src="pictures/aboutus.jpg" class="centerzoom" alt="Fahrradwerkstatt">
 					<div class="textarea">
 						<h2>ÜBER UNS</h2>
 						<p>Das ist Greenbike - ein junges Unternehmen mit speziell für E-Bikes ausgebildeten Fachkräften, die sich gerne für Sie Zeit nehmen. Unser Betrieb zeichnet sich durch die persönliche Beratung in unserem Fahrrad-Shop, der praktischen und kostengünstigen Vermietung von E-Bikes und unserer Fachwerkstätte für E-Bike Wartung und Service aus. Frei nach unserem Leitsatz "Greenbike - Schnell und Günstig" gestaltet sich unser Geschäftsmodell. Flexibilität für jedermann, direkt im Univiertel, praktische Erreichbarkeit mit öffentlichen Verkehrsmitteln, sowie Parkmöglichkeiten sind vorhanden. Die Greenbike GmbH beschäftigt derzeit vier Mitarbeiter, die sich kompetent und zuverlässig um alle Ihre Fragen und Anliegen rund um das Thema E-Bike kümmern.</p>
@@ -146,7 +147,7 @@
 		<div class="container bg-light">
 			<div class="row">
 				<div class="col-sm-12">
-					<img src="pictures/Greenbike-Location.jpg" class="centerzoom">
+					<img src="pictures/Greenbike-Location.jpg" class="centerzoom" alt="Greenbike - Store">
 					<div class="textarea">
 						<h2>PRODUKTE</h2>
 						<p>Wenn Sie in Graz unterwegs sind, denken Sie nicht, dass es hier nur öffentliche Verkehrsmittel gibt. Das E-Bike ist umweltfreundlich und bringt Ihnen viel Freude. Egal ob Sie überlegen, ein E-Bike zu kaufen oder einfach Ihren Urlaubsort auf eine ganz neue Art erkunden möchten - wir haben das passende E-Bike für Sie! Bei uns erwarten Sie eine Vielzahl an hochwertigen Marken E-Bikes. Wenn Sie sich unschlüssig sind, welches E-Bike am besten zu Ihnen passt, zögern Sie nicht uns zu kontaktieren. Wir helfen Ihnen gerne! Um sicherzustellen, dass wir an ihrem Wunschtermin das richtige Bike für Sie haben, rufen Sie uns an oder besuchen Sie uns in der Merangasse 82.</p>
@@ -231,7 +232,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6 angebote-logos">
-						<img id="img-unilogos" src="pictures/LogosUni.svg">
+						<img id="img-unilogos" src="pictures/LogosUni.svg" alt="Uni-Logos">
 					</div>
 
 				</div>	
@@ -347,10 +348,10 @@
 		<br>
 		<!-- FOOTER SOCIAL LINKS -->
 		<div class="col-md-12 footercontainer">
-			<a href="https://www.facebook.com/"><img src="pictures/Facebook.svg" class="social-img"></a>
-			<a href="https://www.instagram.com/"><img src="pictures/Instagram.svg" class="social-img"></a>
-			<a href="https://twitter.com/"><img src="pictures/Twitter.svg" class="social-img"></a>
-			<a href="https://www.youtube.com/"><img src="pictures/Youtube.svg" class="social-img"></a>
+			<a href="https://www.facebook.com/"><img src="pictures/Facebook.svg" class="social-img" alt="Facebook"></a>
+			<a href="https://www.instagram.com/"><img src="pictures/Instagram.svg" class="social-img" alt="Instagram"></a>
+			<a href="https://twitter.com/"><img src="pictures/Twitter.svg" class="social-img" alt="Twitter"></a>
+			<a href="https://www.youtube.com/"><img src="pictures/Youtube.svg" class="social-img" alt="Youtube"></a>
 		</div>
 	</footer>
 	
