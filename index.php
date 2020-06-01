@@ -203,7 +203,7 @@
 									<th id="tab-head" colspan="3">Greenbike Kundenkartenangebot</th>
 								</tr>
 								<tr>
-									<td colspan="3" style="background-color: #5E6966"> </td>
+									<td colspan="3" id="form-blank"> </td>
 								</tr>
 								<tr>
 									<th>E-Bike</th>
@@ -262,7 +262,7 @@
 						</div>
 						<div class="form-group col-md-2">
 							<label for="inputPlz">*PLZ:</label>
-							<input name="plz" style="width: 80px;" pattern="\d{4}" maxlength="4" type="text" class="form-control" id="inputPlz" placeholder="PLZ" required>
+							<input name="plz" pattern="\d{4}" maxlength="4" type="text" class="form-control" id="inputPlz" placeholder="PLZ" required>
 						</div>
 						<div class="form-group col-md-4">
 							<label for="inputOrt">*Ort:</label>
@@ -281,12 +281,12 @@
 					</div>
 					<div>
 						<div class="form-group col-md-12">
-							<label for="exampleFormControlTextarea1">Ihre Nachricht:</label>
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="10" style="border:solid 2px black; border-radius: 0px;" maxlength="400"></textarea>
+							<label for="from-textarea">Ihre Nachricht:</label>
+							<textarea class="form-control" id="form-textarea" rows="10" maxlength="400"></textarea>
 						</div>
 						<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
 						<div class="checkbox">
-							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
+							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen" required><p id="accept-form">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
 						</div>
 						<div class="form-group">
 							<div class="col-md-12">
