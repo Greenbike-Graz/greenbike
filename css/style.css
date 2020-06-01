@@ -283,6 +283,10 @@ textarea {
 	background-color: #4b9b54;
 }
 
+input:valid{
+	color: #74BC7C;
+}
+
 @media only screen and (max-width: 1000px) {
 
 	table, th, td {

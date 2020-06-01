@@ -244,39 +244,39 @@
 		<div class="bg-light container">
 			<div class="col-sm-12">
 				<h3 id="formular-head">Haben Sie noch Fragen? Dann zögern Sie nicht!</h3>
-				<form name ="form" onsubmit="return validateForm()" class="formular" id="kontakt"> 
+				<form name ="form" class="formular" id="kontakt"> 
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputVorname">*Vorname:</label>
-							<input name="vorname" type="text" class="form-control" id="inputVorname" placeholder="Vorname" name="vorname">
+							<input name="vorname" type="text" pattern="[a-zA-Z]+"  class="form-control" id="inputVorname" placeholder="Vorname" name="vorname" required>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="inputNachname">*Nachname:</label>
-							<input name="nachname" type="text" class="form-control" id="inputNachname" placeholder="Nachname">
+							<input name="nachname" type="text" pattern="[a-zA-Z]+"  class="form-control" id="inputNachname" placeholder="Nachname" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputAdresse">*Adresse:</label>
-							<input name="adresse" type="text" class="form-control" id="inputAdresse" placeholder="Adresse">
+							<input name="adresse" type="text" pattern="[a-zA-Z0-9\sÄÖÜäöüß]+" maxlength="20" class="form-control" id="inputAdresse" placeholder="Adresse" required>
 						</div>
 						<div class="form-group col-md-2">
 							<label for="inputPlz">*PLZ:</label>
-							<input name="plz" style="width: 80px;" type="text" class="form-control" id="inputPlz" placeholder="PLZ">
+							<input name="plz" style="width: 80px;" pattern="\d{4}" maxlength="4" type="text" class="form-control" id="inputPlz" placeholder="PLZ" required>
 						</div>
 						<div class="form-group col-md-4">
 							<label for="inputOrt">*Ort:</label>
-							<input name="ort" type="text" class="form-control" id="inputOrt" placeholder="Ort">
+							<input name="ort" type="text" pattern="[a-zA-ZÄÖÜäöüß]+" maxlength="20" class="form-control" id="inputOrt" placeholder="Ort" required>
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputTelefon">*Telefon/Mobile:</label>
-							<input name="telefon" type="text" class="form-control" id="inputTelefon" placeholder="06641234567">
+							<input name="telefon" type="tel" class="form-control" pattern="\d{11}" id="inputTelefon" placeholder="06641234567" required>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="email">*Email:</label>
-							<input name="email" type="email" class="form-control" id="email" placeholder="Email">
+							<input name="email" type="email" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="25" id="email" placeholder="Email" required>
 						</div>
 					</div>
 					<div>
@@ -286,7 +286,7 @@
 						</div>
 						<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
 						<div class="checkbox">
-							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen"><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
+							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen" required><p style="text-align: justify;">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
 						</div>
 						<div class="form-group">
 							<div class="col-md-12">
@@ -351,5 +351,6 @@
 			<a href="https://www.youtube.com/"><img src="pictures/Youtube.svg" class="social-img"></a>
 		</div>
 	</footer>
+	
 </body>
 </html>
