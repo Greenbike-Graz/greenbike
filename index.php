@@ -21,7 +21,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-	<title>Greenbike Graz</title>
+	<title>Greenbike Graz - EBikes für jedermann</title>
 </head>
 
 <body>
@@ -55,16 +55,6 @@
 					<img src="pictures/slideshow3.jpg" class="centerzoom" alt="Slideshow - Bikes">
 				</div>
 			</div>
-
-			<!-- Left and right controls 
-				<a class="left carousel-control" href="#mainCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#mainCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-					<span class="sr-only">Next</span>
-				</a>-->
 		</div>
 	</section>
 
@@ -287,9 +277,9 @@
 							<label for="from-textarea">Ihre Nachricht:</label>
 							<textarea class="form-control" id="form-textarea" rows="10" maxlength="400"></textarea>
 						</div>
-						<p>Wir speichern Ihre persönliche Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVO. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
+						<p>Wir speichern Ihre persönlichen Daten für die Zusendung von Infomaterial und es gilt für die Verarbeitung Ihrer Daten die DSGVo. Alle Eingabefelder, die mit * gekennzeichnet sind MÜSSEN ausgefüllt werden. Auf Ihren Wunsch werden die Daten jederzeit aus unserer Datenbank gelöscht. Bitte bestätigen Sie Ihr Einverständnis mit der nachfolgenden Checkbox.</p>
 						<div class="checkbox">
-							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen" required><p id="accept-form">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
+							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen" required><p id="accept-form">Ich bestätige, dass Greenbike meine persönlichen Daten für den angedachten E-Mailverkehr speichern und nutzen darf.</p></label>
 						</div>
 						<div class="form-group">
 							<div class="col-md-12 buttonspace">
