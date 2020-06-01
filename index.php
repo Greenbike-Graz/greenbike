@@ -322,7 +322,6 @@
 					Merangasse 82<br>
 					8010 Graz<br>
 					p: +43 3123 31242<br>
-					e: greenbike@gmail.com<br>
 					w: greenbike.bplaced.net<br>
 				</div>
 				<div class="col-md-4 mx-auto">
