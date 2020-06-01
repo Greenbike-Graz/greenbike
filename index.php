@@ -352,5 +352,6 @@
 		</div>
 	</footer>
 	
+	<script data-account="SRb1TPxPYM" src="https://cdn.userway.org/widget.js"></script>
 </body>
 </html>
