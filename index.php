@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="icon" type="image" href="pictures/favicon.ico" />
 
 	<!-- Sets the width to the devices width you are viewing it in.  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +11,6 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -114,7 +114,7 @@
 				<div class="textarea">
 					<h2 class="h2-light">LEISTUNGEN</h2>
 					<p class="p-light">
-						Wir bieten modernste E-Bikes an, von der Vermietung bis zum Kauf an, sowie eine hauseigene Fachwerkstätte zu Wartung und Service für Ihre E-Bikes:
+						Wir bieten modernste E-Bikes von der Vermietung bis zum Kauf, sowie eine hauseigene Fachwerkstätte zur Wartung für Ihre E-Bikes:
 					</p>
 					<br>
 					<h3 class="h3-light">SERVICECENTER</h3>
@@ -154,6 +154,7 @@
 
 
 						<h3>Unsere Empfehlungen für Sie:</h3>
+						<br>
 					</div>
 				</div>
 			</div>
@@ -195,9 +196,9 @@
 						<p class="p-light"> Für mehr Fragen wenden Sie sich bei uns per E-Mail oder rufen Sie uns an!</p>
 					</div>
 				</div>
-				<div class="col-sm-12 max-h">
-					<div class="col-sm-6">
-						<div class="tablecontainer max-h">
+				<div class="col-sm-12 angebote-sector">
+					<div class="col-sm-6 angebote-table">
+						<div class="max-h">
 							<table class="max-w">
 								<tr>
 									<th id="tab-head" colspan="3">Greenbike Kundenkartenangebot</th>
@@ -229,9 +230,10 @@
 							</table>
 						</div>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-6 angebote-logos">
 						<img id="img-unilogos" src="pictures/LogosUni.svg">
 					</div>
+
 				</div>	
 			</div>
 		</div>
@@ -289,7 +291,7 @@
 							<label class="checkbox-inline"><input id="dsgvo" type="checkbox" value="zustimmen" required><p id="accept-form">Ich bestätige, dass Greenbike eine persönlichen Daten für die Zusendung von Informaterial speichern darf.</p></label>
 						</div>
 						<div class="form-group">
-							<div class="col-md-12">
+							<div class="col-md-12 buttonspace">
 								<button id="send-form" value="Submit" type="submit" class="btn btn-primary btn-lg btn-block form-submit">ABSCHICKEN</button>
 							</div>
 						</div>
