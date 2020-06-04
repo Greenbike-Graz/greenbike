@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+	<title>Greenbike Graz - EBikes für jedermann</title>
 	<link rel="icon" type="image" href="pictures/favicon.ico" />
+
+	<!-- Forces UTF-8 for umlaut support -->
 	<meta charset="UTF-8">
+
 	<!-- Sets the width to the devices width you are viewing it in.  -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Meta tagging for SEO -->
 	<meta name="description" content="Das ist Greenbike - ein junges Unternehmen mit speziell für E-Bikes ausgebildeten Fachkräften, die sich gerne für Sie Zeit nehmen. Unser Betrieb zeichnet sich durch die persönliche Beratung in unserem Fahrrad-Shop, der praktischen und kostengünstigen Vermietung von E-Bikes und unserer Fachwerkstätte für E-Bike Wartung und Service aus."/>
 
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<!-- SCRIPTS and CSS -->
 
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!-- jQuery - req. for bootstrap -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-	<script src="js/smoothscrolling.js"></script>
-	<script src="js/submit_form.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/smoothscrolling.js"></script>
+		<script src="js/submit_form.js"></script>
 
-	<title>Greenbike Graz - EBikes für jedermann</title>
+		<!-- Local Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -59,7 +65,7 @@
 	</section>
 
 	<!-- NAVBAR -->
-	<section id="section-navbar">
+	<nav id="section-navbar">
 		<nav class="navbar navbar-default" role="navigation">
 			<div class="bg-dark container-fluid">
 				<div class="navbar-header">
@@ -78,7 +84,7 @@
 				</div>
 			</div>
 		</nav>
-	</section>
+	</nav>
 	
 	<!-- ABOUTUS -->
 	<section id="section-aboutus">
