@@ -1,5 +1,4 @@
-//check form befor submit
-
+//executes the function when the site is loaded
 window.onload = function () {
   const okButton = document.getElementById('send-form');
   const vorname = document.getElementById('inputVorname');
@@ -11,6 +10,7 @@ window.onload = function () {
   const email = document.getElementById('email');
   const checkbox = document.getElementById('dsgvo');
 
+//checks if the input matches the pattern  
   okButton.addEventListener('click', function (event) {
     isValidVorname = vorname.checkValidity();
     isValidNachname = nachname.checkValidity();
@@ -21,7 +21,7 @@ window.onload = function () {
     isValidEmail = email.checkValidity();
     isValidCheckbox = checkbox.checkValidity();
 
-
+//checks if the user entered something in the input fields
     if (isValidEmail && isValidNachname && isValidVorname && isValidAdresse && isValidPlz && isValidOrt && isValidTelefon && isValidEmail && isValidCheckbox) {
       mail_url = 'mailto:greenbike.graz@gmail.com?Subject=' + 'Anfrage' + '&Body=' + $('#form-textarea').val() + '%0D%0A' + '%0D%0A' + $('#inputVorname').val() + ' ' + $('#inputNachname').val() + '%0D%0A' + $('#inputAdresse').val() + ', ' + $('#inputPlz').val() + ' ' + $('#inputOrt').val() + '%0D%0A' + $('#inputTelefon').val() + '%0D%0A' + $('#email').val()
       window.location = mail_url

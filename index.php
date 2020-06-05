@@ -243,6 +243,7 @@
 		<div class="bg-light container">
 			<div class="col-sm-12">
 				<h3 id="formular-head">Haben Sie noch Fragen? Dann zögern Sie nicht!</h3>
+				<!-- Form -->
 				<form name ="form" class="formular" id="kontakt"> 
 					<div class="form-row">
 						<div class="form-group col-md-6">
@@ -279,6 +280,7 @@
 						</div>
 					</div>
 					<div>
+					<!-- TEXTAREA -->
 						<div class="form-group col-md-12">
 							<label for="from-textarea">Ihre Nachricht:</label>
 							<textarea class="form-control" id="form-textarea" rows="10" maxlength="400"></textarea>
