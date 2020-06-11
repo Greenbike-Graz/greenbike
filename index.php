@@ -232,12 +232,14 @@
 					<div class="col-sm-6 angebote-logos">
 						<img id="img-unilogos" src="pictures/LogosUni.svg" alt="Uni-Logos">
 					</div>
-					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-					<img src="pictures/Mobile_app.jpg" alt="Unsere Studentenkarte" class="centerzoom">
-					<div class="textarea">
-						<h3 class="h3-light">COMING SOON: UNSERE PRAKTISCHE HANDYAPP!</h3>
-						<p class="p-light">Wir wollen Ihnen immer das beste Erlebnis bieten, deshalb sind wir gerade dabei eine App zu entwickeln, die genau dies noch weiter ausbauen wird. Buchungen können somit noch bequemer durchgeführt, Werkstatttermine noch einfacher vereinbart und die Mietzeiten noch besser im Auge behalten werden.</p>
+					<div class="col-sm-12">
 						<br>
+						<img src="pictures/Mobile_app.jpg" alt="Unsere Studentenkarte" class="centerzoom">
+						<div class="textarea">
+							<h3 class="h3-light">COMING SOON: UNSERE PRAKTISCHE HANDYAPP!</h3>
+							<p class="p-light">Wir wollen Ihnen immer das beste Erlebnis bieten, deshalb sind wir gerade dabei eine App zu entwickeln, die genau dies noch weiter ausbauen wird. Buchungen können somit noch bequemer durchgeführt, Werkstatttermine noch einfacher vereinbart und die Mietzeiten noch besser im Auge behalten werden.</p>
+							<br>
+						</div>
 					</div>
 				</div>	
 			</div>
