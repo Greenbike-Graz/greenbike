@@ -145,14 +145,23 @@ p {
 }
 
 .social-img {
-	border: solid transparent 5px;
 	height: 50px;
 	float: right;
+	border: solid transparent 5px;
+}
+
+.first-social-img {
+	height: 50px;
+	float: right;
+	border-left: solid transparent 5px;
+	border-right: solid transparent 0px;
+	border-top: solid transparent 5px;
+	border-bottom: solid transparent 5px;
 }
 
 .footercontainer {
 	background-color: #576563;
-	height: 55px;
+	height: 52px;
 	width: 100%;
 }
 
@@ -309,10 +318,19 @@ input:valid{
 		width: 75%;
 	}
 
-	.social-img{
-		border: solid transparent 5px;
+	.social-img {
 		height: 50px;
 		float: left;
+		border: solid transparent 5px;
+	}
+
+	.first-social-img {
+		height: 50px;
+		float: left;
+		border-left: solid transparent 0px;
+		border-right: solid transparent 5px;
+		border-top: solid transparent 5px;
+		border-bottom: solid transparent 5px;
 	}
 
 	h1 {

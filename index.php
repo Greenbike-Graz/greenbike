@@ -347,7 +347,7 @@
 		<br>
 		<!-- FOOTER SOCIAL LINKS -->
 		<div class="col-md-12 footercontainer">
-			<a href="https://www.facebook.com/"><img src="pictures/Facebook.svg" class="social-img" alt="Facebook"></a>
+			<a href="https://www.facebook.com/"><img src="pictures/Facebook.svg" class="first-social-img" alt="Facebook"></a>
 			<a href="https://www.instagram.com/"><img src="pictures/Instagram.svg" class="social-img" alt="Instagram"></a>
 			<a href="https://twitter.com/"><img src="pictures/Twitter.svg" class="social-img" alt="Twitter"></a>
 			<a href="https://www.youtube.com/"><img src="pictures/Youtube.svg" class="social-img" alt="Youtube"></a>
