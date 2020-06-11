@@ -39,10 +39,6 @@ body {
 
 
 
-#mainCarousel, .carousel-inner, .item {
-	
-}
-
 .buttonspace {
 	height: 120px;
 }
@@ -233,7 +229,6 @@ input, label {
 
 form{
 	margin-top: 30px;
-	margin-bottom: -20%;
 }
 
 #form-blank{
@@ -257,10 +252,6 @@ textarea {
 	resize: vertical;
 }
 
-#head-textarea{
-	font-size: 24px;
-	text-align: center;
-}
 
 .form-submit{
 	border-radius: 0px;
@@ -270,18 +261,12 @@ textarea {
 
 }
 
-.form-submit:hover{
-	background-color: #4b9b54;
-}
-.form-submit:visited{
+.form-submit:visited, .btn.btn-primary:active,.form-submit:hover{
 	background-color: #4b9b54;
 }
 
 .form-submit:focus{
 	background-color: #74BC7C;
-}
-.btn.btn-primary:active{
-	background-color: #4b9b54;
 }
 
 input:valid{
