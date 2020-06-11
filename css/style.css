@@ -199,13 +199,6 @@ th {
 }
 
 
-#container-tab{
-	padding-bottom: 50%;
-	margin: 2% 4%;
-}
-
-
-
 #formular-head{
 	text-align: center;
 }
@@ -257,7 +250,6 @@ textarea {
 	border-radius: 0px;
 	background-color: #74BC7C;
 	border: none;
-
 
 }
 
